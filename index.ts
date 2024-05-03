@@ -42,6 +42,7 @@ let amount = data.amount
 
 let baseAmount = amount / fromAmount
 let convertedAmount = baseAmount * toAmount
+convertedAmount = parseFloat(convertedAmount.toFixed(2))
 
 // console.log(`fromAmount: ${fromAmount}`)
 // console.log(`toAmount: ${toAmount}`)
